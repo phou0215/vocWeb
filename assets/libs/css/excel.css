@@ -1,0 +1,63 @@
+/*----------------------------------------------공통---------------------------------------------------------*/
+/* 공통 body 전체*/
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@media (min-width: 300px){
+  html,body{
+    display: block;
+    padding-top: 30px;
+    font-family: 'Jeju Gothic', serif;
+    width: 480px;
+    height: 480px;
+    margin:0;
+    padding:0;
+    background-color:#333333;
+    color: whitesmoke;
+  }
+}
+.box {
+     width: 100%;
+     height: 100%;
+     padding:20px;
+     background-color:#333333;
+     border:3px solid #ccc;
+     border-radius:7px;
+     margin: 10px;
+}
+.box h4{
+     text-align: center;
+}
+.box form{
+  border:2px solid #ccc;
+  border-radius:7px;
+  margin-top: 200px;
+  padding: 10px;
+  font-size: 14px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+.box input[type='text']{
+  border:1.5px solid #ccc;
+  border-radius:7px;
+  height:30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.box input[type='submit']{
+  color: whitesmoke;
+  border:1.5px solid #ccc;
+  border-radius:7px;
+  background-color: rgb(65, 132, 143);
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+.box input[type='submit']:hover{
+  color: #333333;
+  font-weight: bold;
+  background-color: rgb(238,233,209);
+  box-shadow: rgba(238, 233, 209, 0.7) 0 80px 0px 2px inset;
+  cursor:pointer;
+}
